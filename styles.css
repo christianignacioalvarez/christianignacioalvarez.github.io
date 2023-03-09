@@ -1,0 +1,182 @@
+.custom_letter_white{
+    color: aliceblue !important;
+}
+.custom_letter_white:hover{
+    color: lightseagreen !important;
+}
+
+.bg-light{
+    color: lightseagreen;
+}
+#btn-ocultar_menu{
+    margin-left: 10px;
+    background-color: black;
+    color: aliceblue;
+    border: solid aliceblue 3px;
+}
+.encabezado{
+    background-color: white;
+    margin: 100px auto;
+}
+.carta_presentacion{
+    align-items: center;
+    justify-content: center;
+}
+#nombre_dev{
+    vertical-align: middle;
+    text-align: center;
+}
+.presentation_image{
+    width: 18rem;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+    margin-bottom: 2vh;  
+}
+h4,p,h3,h2,h5{
+    text-align: center;
+}
+.portfolio{
+    height: 70%;
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.col-lg-4 img {
+    width: 18rem;
+    border-radius: 5%;
+    margin: 10px;
+    height: auto;
+}
+
+.a_cerca_de_mi{
+    background-color: rgb(33,37,41);
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h2{
+    padding-top: 15px;
+    color: aliceblue;
+}
+.a_cerca_de_mi p{
+    color: aliceblue;
+    text-align: start;
+    padding: 0% 25%;
+}
+.enviar_form{
+    background-color:  rgb(33,37,41);
+    border: 1px solid lightseagreen;
+}
+.enviar_form:hover{
+    background-color: lightseagreen;
+    border: 2px solid black;
+}
+.contacto{
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.habilidades{
+    height: auto;
+    background-color: rgb(28, 29, 31);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.habilidad{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.titulo_habilidad{
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.habilidad_imagen{
+    height: 12vh;
+    width: auto;
+}
+.formulario{
+    margin: 0 auto;
+    width: 100%;
+}
+.mb-12 .ultimo_div_contacto{
+    margin-bottom: 5px;
+}
+.white_letter{
+    color: aliceblue;
+}
+.contacto div{
+    padding: 0% 20%;
+}
+.footer{
+    background-color: black;
+    border-top: 1px solid lightseagreen;
+    width: 100%;
+}
+.container_footer{
+    margin-top: 50px;
+}
+.redes{
+    text-align: center;
+}
+.redes a{
+    color: aliceblue;
+    padding: 3px;
+    border: 2px solid aliceblue;
+    border-radius: 17%;
+    border-bottom: 0ch;
+}
+.derechos_autor {
+    background-color: rgb(33,37,41);
+    color: aliceblue;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    margin-bottom: auto;
+}
+
+.facebook:hover{
+    color:  #3b5998;
+}
+.twitter:hover{
+    color: #00acee;
+}
+.instagram:hover{
+    color: #833AB4;
+}
+.linkedin:hover{
+    color: #0e76a8;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.direccion h5, p{
+    margin: 0%;
+}
+
+
+
+

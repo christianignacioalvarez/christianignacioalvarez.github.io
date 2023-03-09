@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header class="menu_navegacion">
+      <nav class="navbar fixed-top navbar-expand-lg bg-dark" id="menu_oculto">
+        <div class="container-fluid">
+          <a class="navbar-brand custom_letter_white" href="#">Christian Ignacio</a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active custom_letter_white" aria-current="page" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom_letter_white" href="#acerca">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom_letter_white" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link custom_letter_white" href="#contacto">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-light" id="btn-ocultar_menu">Ocultar menú</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+  <main class="pagina_principal">
+
+    <section class="encabezado">
+      <div class="carta_presentacion">
+        <img class="presentation_image" src="foto-perfil.png" alt="foto del desarrollador"><h4 id="nombre_dev">CHRISTIAN IGNACIO</h4>
+        <p> Desarrollador web </p>
+      </div>         
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <h4>Portfolio</h4>
+          <div class="col-sm-12 col-lg-4">
+            <a href="#" id="alert_desarrollo1" ><img src="https://images.pexels.com/photos/6633920/pexels-photo-6633920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></a>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <a href="#" id="alert_desarrollo2" ><img src="https://images.pexels.com/photos/119550/pexels-photo-119550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></a>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <a href="#" id="alert_desarrollo3" ><img src="https://images.pexels.com/photos/5554655/pexels-photo-5554655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="acerca" class="a_cerca_de_mi">
+      <h2>Acerca de mi</h2><hr>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint fugit eius reprehenderit, amet cum optio voluptatum aut, libero dignissimos sequi deleniti! Rerum, quo dolorum eveniet incidunt minima eaque ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi atque corrupti odio cupiditate deleniti similique aperiam? At eligendi, autem, doloremque in culpa debitis, voluptatum dignissimos a vitae iusto quae suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic et quidem veritatis dolorum id deserunt quos rem quis corporis accusamus ut a aliquam enim illum quibusdam minus distinctio, dicta alias?</p>
+    </section>
+
+    <section id="skills" class="habilidades">
+      <span class="titulo_habilidad">Skills</span>
+      <div class="habilidad">
+        <img class="habilidad_imagen" src="imagen-html.png" alt="logo de html">
+        <img class="habilidad_imagen" src="imagen-css.png" alt="logo de css">
+        <img class="habilidad_imagen" src="imagen-bootstrap.png" alt="logo de bootstrap">
+        <img class="habilidad_imagen" src="imagen-javascript.png" alt="logo de javascript">
+      </div>
+    </section>
+      
+  
+    <section id="contacto" class="contacto">
+      <form class="formulario"  action="https://formspree.io/f/mpzbgkjn"
+      method="POST">
+      <h2>Contactame</h2><hr>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label white_letter">Nombre</label>
+          <input  name= "usuario" type="text" class="form-control" id="formGroupExampleInput">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label white_letter">Email</label>
+          <input name="correo" type="text" class="form-control" id="formGroupExampleInput2">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label white_letter">Número de teléfono</label>
+          <input name="numero_telefono" type="number" class="form-control" id="formGroupExampleInput2">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label white_letter">Mensaje</label>
+          <textarea name="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-12 ultimo_div_contacto">
+          <button type="submit" class="btn btn-primary enviar_form">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="pie_pagina">
+    <div class="footer">
+      <div class="container-fluid white_letter">
+        <div class="row">
+          <div class="col-6">
+            <div class="direccion">
+              <h5>Dirección</h5>
+              <p>Floresta</p>
+              <p>CP1406 CABA</p>
+            </div>
+          </div>
+          <div class="col-6">
+              <h5>En las redes</h5>
+              <div class="redes">
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/christian-ignacio-972ba5197/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="derechos_autor">  
+        <p>Copyright &#169 Mi primer sitio web 2022</p>
+    </div>
+  </footer>
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
